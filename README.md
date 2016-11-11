@@ -50,3 +50,34 @@ Take a look at the manifest file for the recommended setting. Adjust them as per
 The application tries to be self-descriptive. You'll see when you access the application.
 
 
+## CloudFoundry cli info
+### First login to your CF API endpoint: ex: https://api.run.pivotal.io
+cf login
+API endpoint: https://api.run.pivotal.io
+
+Email> ethibeault@prokarma.com
+
+Password> 
+Authenticating...
+OK
+
+Targeted org ProKarma-Pipeline
+
+Select a space (or press enter to skip):
+1. development
+2. production
+3. staging
+
+Space> 1
+Targeted space development
+
+
+                
+API endpoint:   https://api.run.pivotal.io (API version: 2.64.0)
+User:           ethibeault@prokarma.com
+Org:            ProKarma-Pipeline
+Space:          development
+
+### Then push your app
+cf push
+
